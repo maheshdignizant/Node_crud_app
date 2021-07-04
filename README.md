@@ -10,7 +10,9 @@
 6) In .env file give your  mongodb database path, DB_URI = mongodb://localhost:27017/User_DB
 7) In package.json file, add the following line in scripts.
   "scripts": {
+  
     "test": "echo \"Error: no test specified\" && exit 1",
+    
     "start": "nodemon app.js"
   }, 
 
