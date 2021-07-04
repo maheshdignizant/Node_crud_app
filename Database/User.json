@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "60dfd99e36c52d37ac61333e"
+  },
+  "name": "Harsh",
+  "email": "mendapara.harsh47@gmail.com",
+  "password": "$2a$10$EXBvSfcSQKyPzA48QRU3Iuxares3uQFZ1sTJjiLMmY2SQTMsN2Fcu",
+  "date": {
+    "$date": "2021-07-03T03:29:34.414Z"
+  },
+  "__v": 0
+}]

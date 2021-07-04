@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "60df4edd0dfe8a17608e860f"
+  },
+  "pname": "Apple",
+  "category": "Fruits",
+  "price": 90,
+  "image": "image_1625247453457_apple.png",
+  "created": {
+    "$date": "2021-07-02T17:37:33.539Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60df4f420dfe8a17608e8617"
+  },
+  "pname": "Banana",
+  "category": "Fruits",
+  "price": 12,
+  "image": "image_1625247554802_download.png",
+  "created": {
+    "$date": "2021-07-02T17:39:14.807Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60df4fdd0dfe8a17608e861b"
+  },
+  "pname": "Grapes",
+  "category": "Fruits",
+  "price": 30,
+  "image": "image_1625247709325_grapes.png",
+  "created": {
+    "$date": "2021-07-02T17:41:49.331Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60df50750dfe8a17608e861e"
+  },
+  "pname": "Oranges",
+  "category": "Fruits",
+  "price": 40,
+  "image": "image_1625247861360_oranges.png",
+  "created": {
+    "$date": "2021-07-02T17:44:21.364Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60df50b80dfe8a17608e8621"
+  },
+  "pname": "Watermelon",
+  "category": "Fruits",
+  "price": 50,
+  "image": "image_1625247928859_w.png",
+  "created": {
+    "$date": "2021-07-02T17:45:28.943Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60df51010dfe8a17608e8624"
+  },
+  "pname": "Strawberry",
+  "category": "Fruits",
+  "price": 80,
+  "image": "image_1625248001112_straw.png",
+  "created": {
+    "$date": "2021-07-02T17:46:41.117Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60df513e0dfe8a17608e8627"
+  },
+  "pname": "Chickoo",
+  "category": "Fruits",
+  "price": 35,
+  "image": "image_1625248062852_c.png",
+  "created": {
+    "$date": "2021-07-02T17:47:42.862Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60df51880dfe8a17608e862a"
+  },
+  "pname": "Mango",
+  "category": "Fruits",
+  "price": 70,
+  "image": "image_1625248136540_mango.png",
+  "created": {
+    "$date": "2021-07-02T17:48:56.544Z"
+  },
+  "__v": 0
+}]
