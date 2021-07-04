@@ -27,3 +27,20 @@
  3) In Dashboard page, user can add product from navigation bar.
  4) User can do CRUD operations in the table.
  5) At last user can log out successfully.
+
+
+## Technology Stack
+
+"dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.12.13",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
