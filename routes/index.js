@@ -6,34 +6,7 @@ const products = require('../models/products');
 const multer = require('multer');
 const fs = require('fs');
 
-// Welcome page
-router.get('/', (req, res) => {
-    res.render('welcome');
-});
 
-// Dashboard
-router.get('/dashboard', ensureAuthenticated, (req, res) => {
-    res.render('dashboard', {
-        name: req.user.name
-    });
-});
-
-// Register
-router.get("/register",(req, res) => {
-    res.render("register", {title:"Register"});
-
-});
-
-// Login
-router.get("/login",(req, res) => {
-    res.render("login", {title:"Login"});
-
-});
-
-// Add product
-router.get("/add",(req, res) => {
-    res.render("add_products", {title:"Add Product"});
-});
 
 // Image Upload
 var storage = multer.diskStorage({
@@ -178,6 +151,33 @@ router.get("/add",(req, res) => {
 
 });
          
+// Welcome page
+router.get('/', (req, res) => {
+    res.render('welcome');
+});
 
+// Dashboard
+router.get('/dashboard', ensureAuthenticated, (req, res) => {
+    res.render('dashboard', {
+        name: req.user.name
+    });
+});
+
+// Register
+router.get("/register",(req, res) => {
+    res.render("register", {title:"Register"});
+
+});
+
+// Login
+router.get("/login",(req, res) => {
+    res.render("login", {title:"Login"});
+
+});
+
+// Add product
+router.get("/add",(req, res) => {
+    res.render("add_products", {title:"Add Product"});
+});
 
 module.exports = router;
