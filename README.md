@@ -10,11 +10,20 @@
 6) In .env file give your  mongodb database path, DB_URI = mongodb://localhost:27017/User_DB
 7) In package.json file, add the following line in scripts.
 
-  "scripts": {
+         "scripts": {
   
-    "test": "echo \"Error: no test specified\" && exit 1",
+         "test": "echo \"Error: no test specified\" && exit 1",
     
-    "start": "nodemon app.js"
-  }, 
+         "start": "nodemon app.js"
+        }, 
 
  8) Run final command npm start.
+ 
+ 
+ ## Project Flow
+ 
+ 1) User needs to register in the web application.
+ 2) After registering, user needs to login by using email-id and password.
+ 3) In Dashboard page, user can add product from navigation bar.
+ 4) User can do CRUD operations in the table.
+ 5) At last user can log out successfully.
