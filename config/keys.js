@@ -1,3 +1,3 @@
 module.exports = {
-    MongoURI: 'mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false'
+    MongoURI: 'mongodb+srv://mack:123@cluster0.3ukpz.mongodb.net/node_crud?retryWrites=true&w=majority'
 }

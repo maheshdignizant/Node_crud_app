@@ -13,6 +13,7 @@ router.get('/login', (req, res) => {
 
 // Sign Up
 router.get('/register', (req, res) => {
+    console.log("eeeee");
     res.render('register');
 });
 

@@ -11,11 +11,8 @@ const app = express();
 require('./config/passport')(passport);
 
 /// DB configuration
-const db = require('./config/keys').MongoURI;
 const { MongoURI } = require("./config/keys");
-
-
-
+const db = require('./config/keys').MongoURI;
 
 /// Connect to MongoDB
 mongoose.connect(db, {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false})
@@ -29,7 +26,7 @@ app.set('view engine', 'ejs');
 /// Express body parser
 app.use(express.urlencoded({ extended: true }));
 
-/// Express Session middleware
+/// Express Session middleware  
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 

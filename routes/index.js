@@ -115,7 +115,8 @@ router.post('/update/:id', upload, (req,res)=> {
                 type:'success',
                 message:'Product Updated Successfully'
             };
-            res.redirect('/');
+            console.log("sssssss");
+            res.redirect('/dashboard');
 
         }
     });
